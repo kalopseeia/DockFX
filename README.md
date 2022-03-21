@@ -1,3 +1,43 @@
+### Modulepath
+JreSE-17
+
+### Javafx Version
+17
+
+### Eclipse VM Arguments
+
+--module-path "C:\Program Files\Eclipse Adoptium\openjfx-17.0.2_windows-x64_bin-sdk\javafx-sdk-17.0.2\lib" --add-modules=javafx.controls,javafx.graphics,javafx.fxml,javafx.web
+--add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.css=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.util=ALL-UNNAMED
+--add-exports=javafx.base/com.sun.javafx.reflect=ALL-UNNAMED
+--add-exports=javafx.base/com.sun.javafx.beans=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
+--add-exports=javafx.base/com.sun.javafx.logging=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.prism=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.glass.ui=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.geom.transform=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.font=ALL-UNNAMED
+--add-exports=javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.scene.input=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.application=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.geom=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.iio=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.prism.paint=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.scenario.effect=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.scenario.effect.impl=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.scenario.effect.impl.prism=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.text=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.scene.text=ALL-UNNAMED
+--add-exports=javafx.graphics/javafx.scene.paint=ALL-UNNAMED
+--add-exports=javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED
+--add-exports=javafx.controls/com.sun.javafx.scene.control.inputmap=ALL-UNNAMED
+--add-exports=javafx.graphics/com.sun.javafx.scene.traversal=ALL-UNNAMED
+
 # DockFX [![Build Status](https://goombert.visualstudio.com/DockFX/_apis/build/status/RobertBColton.DockFX?branchName=master)](https://goombert.visualstudio.com/DockFX/_build/latest?definitionId=1&branchName=master)
 <table>
 <tr>
